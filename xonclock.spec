@@ -9,6 +9,9 @@ Source0:	http://dl.sourceforge.net/xonclock/%{name}-%{version}.tar.gz
 # Source0-md5:	4a8a602c75ba27bd45e0491a0d36983e
 Patch0:		%{name}-config.patch
 URL:		http://xonclock.sourceforge.net/
+BuildRequires:	XFree86-devel
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	freetype-devel
 BuildRequires:	libjpeg-devel
 BuildRequires:	libpng-devel

@@ -1,0 +1,11 @@
+--- xonclock-0.0.8.4/src/xonclockrc-example~	2006-12-10 15:55:57.000000000 +0100
++++ xonclock-0.0.8.4/src/xonclockrc-example	2006-12-10 20:32:17.000000000 +0100
+@@ -10,7 +10,7 @@
+ 
+ #
+ # path to clock skin
+-skin =
++skin = /usr/share/xonclock/skins/xonclock.png
+ 
+ #
+ # base clock position:

@@ -1,5 +1,5 @@
 Summary:	Simple X on-screen analog clock
-Summary(pl.UTF-8):   Prosty zegar analogowy na ekran
+Summary(pl.UTF-8):	Prosty zegar analogowy na ekran
 Name:		xonclock
 Version:	0.0.8.6
 Release:	1

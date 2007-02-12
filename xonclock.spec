@@ -1,5 +1,5 @@
 Summary:	Simple X on-screen analog clock
-Summary(pl):	Prosty zegar analogowy na ekran
+Summary(pl.UTF-8):   Prosty zegar analogowy na ekran
 Name:		xonclock
 Version:	0.0.8.6
 Release:	1
@@ -21,9 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xonclock is X on-screen analog clock displayer with assignable skins.
 
-%description -l pl
-xonclock wy∂wietla na ekranie zegarek analogowy z moøliwo∂ci± zmiany
-jego wygl±du.
+%description -l pl.UTF-8
+xonclock wy≈õwietla na ekranie zegarek analogowy z mo≈ºliwo≈õciƒÖ zmiany
+jego wyglƒÖdu.
 
 %prep
 %setup -q

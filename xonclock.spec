@@ -1,12 +1,12 @@
 Summary:	Simple X on-screen analog clock
 Summary(pl.UTF-8):	Prosty zegar analogowy na ekran
 Name:		xonclock
-Version:	0.0.8.6
+Version:	0.0.8.9
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/xonclock/%{name}-%{version}.tar.gz
-# Source0-md5:	92e03a232540bf6906ca544a0496368b
+# Source0-md5:	65daa08a6276138799aff4aafb652205
 Patch0:		%{name}-config.patch
 URL:		http://xonclock.sourceforge.net/
 BuildRequires:	XFree86-devel

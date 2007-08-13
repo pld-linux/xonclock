@@ -12,9 +12,9 @@ Patch1:		%{name}-Makefile.patch
 URL:		http://xonclock.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	freetype-devel >= 2.1.9
+BuildRequires:	freetype-devel >= 1:2.1.9
 BuildRequires:	libjpeg-devel >= 6b
-BuildRequires:	libpng-devel >= 1.2.13
+BuildRequires:	libpng-devel >= 2:1.2.13
 BuildRequires:	libtiff-devel >= 3.8.2
 BuildRequires:	xorg-lib-libXpm-devel >= 3.5.5
 BuildRequires:	xorg-lib-libXrender-devel

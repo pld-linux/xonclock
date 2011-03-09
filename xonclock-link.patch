@@ -1,0 +1,13 @@
+--- xonclock-0.0.9.3/configure.ac~	2011-03-09 09:58:51.376705710 +0100
++++ xonclock-0.0.9.3/configure.ac	2011-03-09 09:59:53.697213721 +0100
+@@ -177,8 +177,8 @@
+ dnl
+ dnl concateinate options
+ CPPFLAGS="$CPPFLAGS $X_CFLAGS $XO_XFT_CFLAGS $XO_PNG_CFLAGS"
+-LDFLAGS="$LDFLAGS $X_LIBS $XO_XFT_LIBS $XO_PNG_LIBS -ltiff -ljpeg -lXpm"
+-LIBS="$LIBS"
++LDFLAGS="$LDFLAGS"
++LIBS="$LIBS $X_LIBS $XO_XFT_LIBS $XO_PNG_LIBS -lm -lXrender"
+ dnl
+ dnl and process them
+ dnl

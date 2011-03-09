@@ -1,14 +1,16 @@
 Summary:	Simple X on-screen analog clock
 Summary(pl.UTF-8):	Prosty zegar analogowy na ekran
 Name:		xonclock
-Version:	0.0.9.2
+Version:	0.0.9.3
 Release:	0.1
 License:	GPL v2+
 Group:		X11/Applications
-Source0:	http://dl.sourceforge.net/xonclock/%{name}-%{version}.tar.gz
-# Source0-md5:	2c62c198df0a965fc87690d6ad567ee8
+Source0:	http://downloads.sourceforge.net/xonclock/%{name}-%{version}.tar.gz
+# Source0-md5:	3505b6ab52244bd9399936a3a1ed6351
 Patch0:		%{name}-config.patch
 Patch1:		%{name}-Makefile.patch
+Patch2:		%{name}-freetype.patch
+Patch3:		%{name}-link.patch
 URL:		http://xonclock.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -31,6 +33,8 @@ jego wyglądu.
 %setup -q
 %patch0 -p1
 %patch1 -p1
+%patch2 -p1
+%patch3 -p1
 
 %build
 %{__aclocal}
@@ -51,6 +55,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS NEWS README THANKS src/xonclockrc-example
-%attr(755,root,root) %{_bindir}/*
+%attr(755,root,root) %{_bindir}/%{name}
 %{_datadir}/%{name}
-%{_mandir}/man1/*.1*
+%{_mandir}/man1/xonclock.1*
